@@ -1,5 +1,10 @@
 # Moebius Core
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-4a8fb5.svg)](LICENSE)
+[![three.js](https://img.shields.io/badge/three.js-0.180-000000.svg)](https://threejs.org)
+[![WebGL](https://img.shields.io/badge/WebGL-2-8fd0c8.svg)](#limits)
+[![No build step](https://img.shields.io/badge/build-none-c76b8e.svg)](#quick-start)
+
 An ink-and-paper rendering core for three.js. Drop it over any scene and it becomes a drawn illustration: ink outlines, sun-keyed crosshatching, paper grain.
 
 ![Moebius Core](docs/images/hero.png)
@@ -73,4 +78,6 @@ src/demo/     the study bench: scene, light rig, panel, orbit camera
 
 Architecture and design contracts: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). File map and change routing: [src/README.md](src/README.md). Maintainer index: [AGENTS.md](AGENTS.md).
 
-`vendor/three/` is three.js `0.180.0`, MIT, license included. The rest of this repository is unlicensed.
+## License
+
+MIT — see [LICENSE](LICENSE). `vendor/three/` is three.js `0.180.0`, also MIT, with its license included.
