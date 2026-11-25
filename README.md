@@ -16,9 +16,9 @@ No build step, no dependencies beyond three.js. The pipeline is three passes ove
 - **Speed streaks** driven by speed, acceleration, boost stage and braking, with the central 58% kept clear.
 - **Inspectable.** Layer toggles and four diagnostic channels: outline mask, hatch mask, normals, depth.
 
-| Outline mask | Hatch mask | Normal buffer |
-| --- | --- | --- |
-| ![outline](docs/images/outline-mask.png) | ![hatch](docs/images/hatch-mask.png) | ![normals](docs/images/normal-buffer.png) |
+| Outline mask | Hatch mask | Normal buffer | Speed streaks |
+| --- | --- | --- | --- |
+| ![outline](docs/images/outline-mask.png) | ![hatch](docs/images/hatch-mask.png) | ![normals](docs/images/normal-buffer.png) | ![speed](docs/images/speed-edge.png) |
 
 ## Quick start
 
@@ -52,6 +52,8 @@ A lit study bench: flat-bottomed solids resting exactly on the surface, non-flat
 - Six presets: default, line art, hatch only, heavy ink, low sun, overhead.
 
 ![Low sun](docs/images/light-low-sun.png)
+
+![Control panel](docs/images/panel.png)
 
 ## Layout
 
