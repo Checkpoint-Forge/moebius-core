@@ -1,0 +1,24 @@
+{
+  "name": "moebius-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Moebius 墨线后期内核 — 把 three.js 场景渲染成纸墨手绘风",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node serve.mjs",
+    "dev": "node serve.mjs",
+    "check": "node tools/check-syntax.mjs",
+    "smoke": "python tools/smoke.py"
+  },
+  "keywords": [
+    "three.js",
+    "toon-shading",
+    "post-processing",
+    "hatching",
+    "ink"
+  ],
+  "license": "UNLICENSED"
+}
